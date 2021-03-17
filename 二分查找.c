@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h> 
-//¶ş·Ö²éÕÒ 
+//äºŒåˆ†æŸ¥æ‰¾ 
 int binary_search(int arr[],int k,int sz)
 {
 	
@@ -31,19 +31,19 @@ int main()
 	int arr[]={1,2,3,4,5,6,7,8,9,10};
 	int k=7;
 	int sz=sizeof(arr)/sizeof(arr[0]);
-	int ret = binary_search(arr,k,sz); //×Ô¶¨Òå¶ş·Ö²éÕÒµÄº¯Êı 
+	int ret = binary_search(arr,k,sz); //è‡ªå®šä¹‰äºŒåˆ†æŸ¥æ‰¾çš„å‡½æ•° 
 	if(ret==-1)
 	{
-		printf("ÕÒ²»µ½Ö¸¶¨µÄÊı×Ö\n");
+		printf("æ‰¾ä¸åˆ°æŒ‡å®šçš„æ•°å­—\n");
 	}
 	else
 	{
-		printf("ÕÒµ½Ö¸¶¨Êı×Ö£¬ÏÂ±êÊÇ:%d\n",ret);
+		printf("æ‰¾åˆ°æŒ‡å®šæ•°å­—ï¼Œä¸‹æ ‡æ˜¯:%d\n",ret);
 	}
 	return 0;
  } 
 
-//Ã¿µ÷ÓÃÒ»´Îº¯Êı num¼ÓÒ» 
+//æ¯è°ƒç”¨ä¸€æ¬¡å‡½æ•° numåŠ ä¸€ 
 //int add(int*p)
 //{
 //	(*p)++;
