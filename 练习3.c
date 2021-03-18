@@ -1,5 +1,5 @@
 #include<stdio.h>
-//底下的是错误的， 应该改变地址 
+//搴曚笅鐨勬槸閿欒鐨勶紝 搴旇鏀瑰彉鍦板潃 
 void Swap(int x,int y) 
 {
 	int tmp ;
@@ -11,7 +11,7 @@ int main()
 {
 	int a=10;
 	int b=20;
-	Swap(a,b); //自定义的交换函数 
+	Swap(a,b); //鑷畾涔夌殑浜ゆ崲鍑芥暟 
 	printf("a=%d\nb=%d\n",a,b);
 	return 0;
 }
