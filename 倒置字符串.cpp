@@ -26,7 +26,6 @@ void revserse_string(char* str)
 		reverse(j, i-1);
 		if (*i == '\0')
 		{
-			reverse(j, p+(strlen(p)-1));
 			str = i;
 		}
 		else
@@ -39,7 +38,7 @@ void revserse_string(char* str)
 int main()
 {
 	char arr[100] = { 0 };
-	//不能用scanf，因为scanf遇到空格就不再输入了
+	//涓嶈兘鐢╯canf锛屽洜涓簊canf閬囧埌绌烘牸灏变笉鍐嶈緭鍏ヤ簡
 	char*str = arr;
 	gets_s(arr,100);
 	revserse_string(arr);
